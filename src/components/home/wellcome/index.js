@@ -9,7 +9,7 @@ export default function Wellcome() {
                 <div className="container">
 
                     <article className="message">
-                        <h1>Alimentos orgânicos são a melhor opção para a sua saúde</h1>
+                        <h1>Alimentos orgânicos são as melhores opções para a sua saúde!</h1>
                         <button>Ver mais</button>
                     </article>
 

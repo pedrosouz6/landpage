@@ -10,7 +10,6 @@ const {
 export const Section = Style.section `
     width: 100%;
     height: 145vh;
-    background: red;
     background: linear-gradient(90deg, ${background_primary} 0%, ${background_secondary} 48%, ${background_primary} 100%);
     padding-top: 60px;
     z-index: 10;

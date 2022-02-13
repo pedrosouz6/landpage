@@ -9,9 +9,9 @@ const {
 } = Styles;
 
 export const Section = Style.section `
-    background-color: ${background_third};
+    background-color: ${font_color};
     width: 100%;
-    height: 250px;
+    height: 230px;
     
     .center {
         position: relative;
@@ -25,14 +25,14 @@ export const Section = Style.section `
         padding: 0 50px;
     }
 
-    .container h1 {
+    .container h2 {
         text-align: center;
         color: ${font_color};
         margin-bottom: 3rem;
         position: relative;
     }
 
-    .container h1::before{
+    .container h2::before{
         content: '';
         position: absolute;
         top: -65px;
@@ -55,11 +55,12 @@ export const Section = Style.section `
         width: 260px;
         height: 320px;
         padding: 15px;
-        background: ${font_color};
+        background-color: ${font_color};
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        box-shadow: 1px 1px 3px 1px rgba(0, 127, 39, .6);
     }
 
     .cards p {

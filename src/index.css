@@ -8,10 +8,8 @@
   padding: 0;
   box-sizing: border-box;
   color: rgb(225, 248, 232);
-  
   align-items: center;
 }
-
 
 .center {
   max-width: 1250px;

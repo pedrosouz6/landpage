@@ -12,7 +12,7 @@ export default function Benefits () {
             <div className="center">
                 <div className="container">
                    <header>
-                       <h1>Os Benecífios dos Produtos Orgânicos</h1>
+                       <h2>Os Benecífios dos Produtos Orgânicos</h2>
                    </header>
                    <article>
                         <div className="cards">

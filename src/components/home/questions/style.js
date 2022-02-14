@@ -4,6 +4,7 @@ import { Styles } from "../../styles/styles";
 
 const {
     background_primary,
+    background_secondary,
     font_color
 } = Styles
 
@@ -31,7 +32,7 @@ export const Section = Style.section `
     }
 
     article label {
-        background-color: ${background_primary};
+        background: linear-gradient(90deg, ${background_primary} 0%, ${background_secondary} 48%, ${background_primary} 100%);
         display: block;
         padding: 15px 10px;
         cursor: pointer;

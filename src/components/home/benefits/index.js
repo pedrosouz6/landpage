@@ -8,7 +8,7 @@ import { FcBullish } from "react-icons/fc";
 
 export default function Benefits () {
     return (
-        <Section>
+        <Section id="benefits">
             <div className="center">
                 <div className="container">
                    <header>

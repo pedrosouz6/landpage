@@ -9,7 +9,8 @@ const {
 
 export const Section = Style.section `
     width: 100%;
-    height: 145vh;
+    min-height: 110vh;
+    max-height: auto;
     background: linear-gradient(90deg, ${background_primary} 0%, ${background_secondary} 48%, ${background_primary} 100%);
     padding-top: 60px;
     z-index: 10;
@@ -18,7 +19,7 @@ export const Section = Style.section `
         width: 100%;
         height: calc(100vh - 60px);
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         gap: 1.5rem;
@@ -29,7 +30,6 @@ export const Section = Style.section `
     }
 
     .message h1{
-        margin: 0;
         font-size: 30pt;
         font-weight: 600;
     }
@@ -47,7 +47,42 @@ export const Section = Style.section `
     
     .image img {
         max-width: 100%;
-        min-width: 410px;
+        min-width: 380px;
         clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+
+    @media (max-width: 980px){
+        .message h1 {
+            font-size: 28pt;
+            margin-top: 3rem;
+        }
+    }
+
+    @media (max-width: 900px){
+        .image img{
+            width: 100%;
+        }
+
+        .message h1 {
+            font-size: 25pt;
+            margin-top: 2.5rem;
+        }
+        
+        .message button {
+            margin-bottom: .5rem;
+        }
+    }
+
+    @media (max-width: 668px){
+        .message h1 {
+            font-size: 20pt;
+            margin-top: 3rem;
+        }
+        
+        .message button {
+            margin-bottom: 1rem;
+        }
+        
+        
     }
 ` 

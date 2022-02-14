@@ -8,12 +8,14 @@
   padding: 0;
   box-sizing: border-box;
   color: rgb(225, 248, 232);
-  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .center {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 50px;
-  align-items: center;
 }

@@ -10,8 +10,8 @@ const {
 export const Section = Style.section `
     width: 100%;
     height: auto;
-    padding: 2rem 0;
     background-color: ${font_color};
+    padding: 230px 0 2rem 0;
 
     .header h2{
         color: ${background_primary};
@@ -50,4 +50,11 @@ export const Section = Style.section `
         margin-top: 1.5rem;
         cursor: pointer;
     }
+
+    @media (max-width: 1252px){
+        
+    }
+
+    
+
 `

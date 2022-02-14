@@ -3,7 +3,7 @@ import Img1 from "../../images/home/image2.jpg"
 
 export default function Wellcome() {
     return(
-        <Section>
+        <Section className="sec">
           
             <div className="center">
                 <div className="container">

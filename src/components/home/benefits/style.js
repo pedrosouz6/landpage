@@ -3,26 +3,18 @@ import Style from "styled-components";
 import { Styles } from "../../styles/styles";
 
 const {
-    background_third,
     font_color,
-    background_primary
+    background_primary,
+    background_secondary
 } = Styles;
 
 export const Section = Style.section `
-    background-color: ${font_color};
     width: 100%;
-    height: 230px;
-    
-    .center {
-        position: relative;
-    }
-    
+    background: linear-gradient(90deg, ${background_primary} 0%, ${background_secondary} 48%, ${background_primary} 100%);
+
     .container {
+        height: 250px;
         width: 100%;
-        margin-top: -230px;
-        left: 0;
-        position: absolute;
-        padding: 0 50px;
     }
 
     .container h2 {
@@ -77,5 +69,42 @@ export const Section = Style.section `
         color: ${background_primary};
         margin-bottom: .8rem;
     }
+
+    @media (max-width: 1252px){
+        .container{
+            height: 590px;
+        }
+    }
+
+    @media (max-width: 900px){
+        .container{
+            padding-top: 200px;
+        }
+    }
+
+    @media (max-width: 660px){
+        .container{
+            padding-top: 150px;
+        }
+    }
+
+    @media (max-width: 560px){
+        .container{
+            padding-top: 100px;
+        }
+    }
+
+    @media (max-width: 490px){
+        .container{
+            padding-top: 50px;
+        }
+    }
+
+    @media (max-width: 668px){
+        .container{
+            height: 1430px;
+        }
+    }
+
 
 `

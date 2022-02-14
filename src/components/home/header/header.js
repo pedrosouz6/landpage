@@ -10,7 +10,7 @@ export default function Header() {
                     </div>
                     <nav>
                         <ul className="list">
-                            <li>Sobre</li>
+                            <li> <a href="#benefits">Benefícios</a></li>
                             <li>Contato</li>
                             <li>Como funciona</li>
                         </ul>

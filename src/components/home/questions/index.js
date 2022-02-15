@@ -15,26 +15,26 @@ export default function Questions() {
     }
 
     return (
-        <Section>
-                <div className="container">
-                    <h2>Perguntas Frequentes</h2>
-                    <article>
-                        <label onClick={Toggle}>Como isso funciona?</label>
-                        <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
-                    </article>
-                    <article>
-                        <label onClick={Toggle}>Como isso funciona?</label>
-                        <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
-                    </article>
-                    <article>
-                        <label onClick={Toggle}>Como isso funciona?</label>
-                        <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
-                    </article>
-                    <article>
-                        <label onClick={Toggle}>Como isso funciona?</label>
-                        <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
-                    </article>
-                </div>
+        <Section id="faq">
+            <div className="container">
+                <h2>Perguntas Frequentes</h2>
+                <article>
+                    <label onClick={Toggle}>Como isso funciona?</label>
+                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                </article>
+                <article>
+                    <label onClick={Toggle}>Como isso funciona?</label>
+                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                </article>
+                <article>
+                    <label onClick={Toggle}>Como isso funciona?</label>
+                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                </article>
+                <article>
+                    <label onClick={Toggle}>Como isso funciona?</label>
+                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                </article>
+            </div>
         </Section>
     )
 }

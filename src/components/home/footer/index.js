@@ -1,4 +1,5 @@
 import { Footerr } from "./style";
+import Logo  from "../../images/logo/LogoPO.png";
 
 export default function Footer() {
     return(
@@ -6,7 +7,7 @@ export default function Footer() {
             <div className="center">
                 <div className="container">
                     <p>Copyright © 2020</p>
-                    <h2>Produtor</h2>
+                    <img src={Logo} />
                 </div>
             </div>
         </Footerr>

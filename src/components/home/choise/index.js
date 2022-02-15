@@ -7,7 +7,7 @@ import { FcOk } from "react-icons/fc";
 
 export default function Choise() {
     return(
-        <Section>
+        <Section id="cadastrar">
             <div className="center">
                 <h2>Qual o Seu Perfil?</h2>
                 <div className="container">

@@ -76,9 +76,10 @@ export const Section = Style.section `
         }
     }
 
-    @media (max-width: 900px){
+    @media (max-width: 870px){
         .container{
             padding-top: 200px;
+            height: 780px;
         }
     }
 

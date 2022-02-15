@@ -3,7 +3,7 @@ import Img from "../../images/home/image1.jpg";
 
 export default function Operation() {
     return(
-       <Section id="como">
+       <Section id="como-funciona">
            <div className="center">
                <div className="header">
                    <h2>Como funciona o Produtor?</h2>

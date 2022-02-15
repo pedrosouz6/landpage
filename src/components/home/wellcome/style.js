@@ -5,6 +5,7 @@ import { Styles } from "../../styles/styles";
 const { 
     background_primary,
     background_secondary,
+    height_header,
  } = Styles;
 
 export const Section = Style.section `
@@ -17,7 +18,7 @@ export const Section = Style.section `
 
     .container {
         width: 100%;
-        height: calc(100vh - 60px);
+        height: calc(100vh - ${height_header});
         display: flex;
         justify-content: center;
         align-items: center;

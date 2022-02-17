@@ -6,7 +6,7 @@ export default function ConsumerRegister(){
             <div className="center">
                 <div className="container">
                     <article>
-                        <h1>Faça seu cadastro na plataforma</h1>
+                        <h1>Faça seu cadastro na plataforma Produtor</h1>
                     </article>
                     <form>
                         <div className="inputs">

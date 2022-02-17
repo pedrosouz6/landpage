@@ -10,7 +10,8 @@ const {
 export const Section = Style.section `
     background: ${background_gradient};
     width: 100%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 
     .container {
         width: 100%;
@@ -71,6 +72,5 @@ export const Section = Style.section `
         letter-spacing: .5px;
         cursor: pointer;
         border-radius: 2px;
-    }
-    
+    }    
 `

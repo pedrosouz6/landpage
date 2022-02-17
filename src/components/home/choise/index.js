@@ -26,7 +26,7 @@ export default function Choise() {
                             <li> <i><FcOk/></i> Vender seus produtos com mais facilidade</li>
                             <li> <i><FcOk/></i> Aumentar as vendas</li>
                             <li> <i><FcOk/></i> Facilidade de uso</li>
-                            <button>Acessar</button>
+                            <button onClick={() => navigate("/cadastro-produtor")} >Acessar</button>
                         </ul>
                     </div>
 

@@ -20,11 +20,11 @@ export default function Benefits () {
                                 <i><FcPlus/></i>
                             </div>
                             <div className="title">
-                                <h3>Mais saúde</h3>
+                                <h3>Title 1</h3>
                             </div>
                             
                             <div className="content">
-                                <p>Alimentos orgânicos evitam problemas causados pela ingestão de substâncias químicas tóxicas, como agrotóxicos, fertilizantes, antibióticos e hormônios que podem causar desde reações alérgicas e respiratórias até doenças mais sérias.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                             </div>
                        </div>
                        <div className="cards">
@@ -33,10 +33,10 @@ export default function Benefits () {
                             </div>
 
                             <div className="title">
-                                <h3>Certificação</h3>
+                                <h3>Title 2</h3>
                             </div>
                             <div className="content">
-                                <p>Os produtos orgânicos são certificados. Isso significa que, ao comprar um alimento que possui um selo de Orgânico, garante ao consumidor a qualidade do alimento consumido que é saudável e livre de resíduos tóxicos;</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 
                             </div>
                        </div>
@@ -46,12 +46,12 @@ export default function Benefits () {
                             </div>
 
                             <div className="title">
-                                <h3>Contaminação</h3>
+                                <h3>Title 3</h3>
                             </div>
                            
                             <div className="content">
                                 <p>
-                                O uso de fertilizantes na produção dos alimentos atinge o solo, o ar, a água, as pessoas e os animais. Já a produção de alimentos orgânicos preserva tais recursos naturais por não haver produtos químicos.
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                                 </p>
                             </div>
                        </div>
@@ -61,11 +61,11 @@ export default function Benefits () {
                             </div>
 
                             <div className="title">
-                                <h3>Nutrientes</h3>
+                                <h3>Title 4</h3>
                             </div>
                            
                             <div className="content">
-                                <p>Os solos sem contaminação e enriquecidos com adubos naturais, como acontece nas plantações de alimentos orgânicos, produzem alimentos mais ricos em nutrientes</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                             </div>
                        </div>
                    </article>

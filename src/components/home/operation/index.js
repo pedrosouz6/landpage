@@ -6,7 +6,7 @@ export default function Operation() {
        <Section id="como-funciona">
            <div className="center">
                <div className="header">
-                   <h2>Como funciona o Produtor?</h2>
+                   <h2>Como funciona?</h2>
                </div>
                 <div className="container">
                     <article>

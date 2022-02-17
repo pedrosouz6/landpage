@@ -19,20 +19,20 @@ export default function Questions() {
             <div className="container">
                 <h2>Perguntas Frequentes</h2>
                 <article>
-                    <label onClick={Toggle}>Como isso funciona?</label>
-                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                    <label onClick={Toggle}>There are many variations of passages.</label>
+                    <p>There are many variations of passages. There are many variations of passages. There are many variations of passages.</p>
                 </article>
                 <article>
-                    <label onClick={Toggle}>Como isso funciona?</label>
-                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                    <label onClick={Toggle}>There are many variations of passages.</label>
+                    <p>There are many variations of passages. There are many variations of passages. There are many variations of passages.</p>
                 </article>
                 <article>
-                    <label onClick={Toggle}>Como isso funciona?</label>
-                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                    <label onClick={Toggle}>There are many variations of passages.</label>
+                    <p>There are many variations of passages. There are many variations of passages. There are many variations of passages.</p>
                 </article>
                 <article>
-                    <label onClick={Toggle}>Como isso funciona?</label>
-                    <p>Pedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitasPedro Souza dereitas</p>
+                    <label onClick={Toggle}>There are many variations of passages.</label>
+                    <p>There are many variations of passages. There are many variations of passages. There are many variations of passages.</p>
                 </article>
             </div>
         </Section>

@@ -20,4 +20,14 @@ export const Footerr = Style.footer `
         justify-content: space-between;
     }
 
+    p {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    a {
+        font-size: 16pt;
+    }
+
 `

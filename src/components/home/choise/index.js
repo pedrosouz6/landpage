@@ -20,9 +20,9 @@ export default function Choise() {
                             <h4>Produtor</h4>
                         </div>
                         <ul>
-                            <li> <i><FcOk/></i> Vender seus produtos com mais facilidade</li>
-                            <li> <i><FcOk/></i> Aumentar as vendas</li>
-                            <li> <i><FcOk/></i> Facilidade de uso</li>
+                            <li> <i><FcOk/></i> There are many variations of passages.</li>
+                            <li> <i><FcOk/></i> There are many variations of passages.</li>
+                            <li> <i><FcOk/></i> There are many variations of passages.</li>
                             <button>Acessar</button>
                         </ul>
                     </div>
@@ -35,9 +35,9 @@ export default function Choise() {
                             <h4>Consumidor</h4>
                         </div>
                         <ul>
-                            <li> <i><FcOk/></i> Acesso aos produtos orgânicos</li>
-                            <li> <i><FcOk/></i> Produtos baratos</li>
-                            <li> <i><FcOk/></i> Facilidade de uso</li>
+                            <li> <i><FcOk/></i> There are many variations of passages.</li>
+                            <li> <i><FcOk/></i> There are many variations of passages.</li>
+                            <li> <i><FcOk/></i> There are many variations of passages.</li>
                             <button>Acessar</button>
                         </ul>
                     </div>

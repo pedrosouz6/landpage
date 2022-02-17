@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+/server
+/src/components/*register
+
 # testing
 /coverage
 

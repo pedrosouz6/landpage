@@ -4,11 +4,8 @@ import { Section } from "./style";
 import { FcReadingEbook } from "react-icons/fc";
 import { FcShop } from "react-icons/fc";
 import { FcOk } from "react-icons/fc";
-import { useNavigate } from "react-router";
 
 export default function Choise() {
-
-    const navigate = useNavigate();
 
     return(
         <Section id="cadastrar">
@@ -26,7 +23,7 @@ export default function Choise() {
                             <li> <i><FcOk/></i> Vender seus produtos com mais facilidade</li>
                             <li> <i><FcOk/></i> Aumentar as vendas</li>
                             <li> <i><FcOk/></i> Facilidade de uso</li>
-                            <button onClick={() => navigate("/cadastro-produtor")} >Acessar</button>
+                            <button>Acessar</button>
                         </ul>
                     </div>
 
@@ -41,7 +38,7 @@ export default function Choise() {
                             <li> <i><FcOk/></i> Acesso aos produtos orgânicos</li>
                             <li> <i><FcOk/></i> Produtos baratos</li>
                             <li> <i><FcOk/></i> Facilidade de uso</li>
-                            <button onClick={() => navigate("/cadastro-consumidor")} >Acessar</button>
+                            <button>Acessar</button>
                         </ul>
                     </div>
                 </div>
